@@ -1,0 +1,19 @@
+#Activity{
+display: flex;
+gap: 2px;
+}
+#Activity,p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Activity, div{
+    gap: 5px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+p{
+    font-weight: bold;
+}
