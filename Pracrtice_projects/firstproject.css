@@ -13,3 +13,20 @@ body{
     padding: 30px;
     margin: 30px;
 }
+.button{
+    margin: 3px;
+    padding: 3px;
+    border-width: 2px black;
+}
+#grey{
+    background-color: grey;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color: yellow;
+}
+#purple{
+    background-color: purple;
+}
