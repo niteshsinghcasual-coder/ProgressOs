@@ -1,15 +1,16 @@
-const buttons=document.querySelectorAll(".botton");
+const buttons=document.querySelectorAll('.button');
 const body=document.querySelector("body");
 
 buttons.forEach(function (button)
 {
-    console.log(button)
+  
+   
     button.addEventListener('click',function(e){
-       if(e.target.id=== 'grey')
+       if(e.target.id === 'grey')
        {
         body.style.backgroundColor=e.target.id;
        }
-       else if(e.target.id==="purple")
+       else if(e.target.id ==="purple")
        {
         body.style.backgroundColor=e.target.id;
        }
@@ -22,4 +23,4 @@ buttons.forEach(function (button)
         body.style.backgroundColor=e.target.id;
        }
     });
-})
+});
