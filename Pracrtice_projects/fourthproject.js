@@ -88,6 +88,4 @@ function newGame() {
         startOver.removeChild(p);
         playGame = true;
     });
-
-
 }
