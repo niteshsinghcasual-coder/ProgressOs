@@ -19,5 +19,7 @@ p{
     font-weight: bold;
 }
 .yourActivity{
-    
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
 }
